@@ -6,7 +6,7 @@ const { t } = require('../lib/language');
 const LINK_REGEX = /(https?:\/\/)?(chat\.whatsapp\.com\/[0-9A-Za-z]{20,24}|wa\.me\/\d+)/i;
 
 // Emojis pour AutoReact
-const REACT_EMOJIS = ['👍', '❤️', '😂', '😮', '🙏', '🔥', '✨', '💯', '👀', '🤔'];
+const REACT_EMOJIS = ['🔥', '🚀', '💸', '👑', '💎', '✅', '⚡', '💰', '🦁', '🧿', '🤗', '😍', '😳', '🥵', '😻', '🤩', '😁', '🥳', '🙌', '🎈'];
 
 // --- 1. SURVEILLANCE DES MESSAGES ---
 async function monitorMessage(sock, m) {
